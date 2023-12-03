@@ -368,3 +368,27 @@ small{
 	top:35%;
 	transform:translate(-50%,-50%);
 }
+#footer2{
+	display: flex;
+	gap: 500px;
+	padding: 5px;
+}
+
+#face{
+	height: 2rem;
+	
+}
+#face2{
+	height: 2.5rem;
+	
+	
+}
+#copy{
+margin-left: 15rem;
+}
+.playstore{
+	height: 5rem;
+	margin-left: 5rem;
+	border-radius: 500px;
+	margin-top: -2rem;
+}
