@@ -29,17 +29,20 @@ background: linear-gradient(20deg, rgba(245,110,179,1) 0%, rgba(203,28,141,1) 50
 }
 
 .about-title {
-    text-align: center;
+    text-align:left;
 }
 
 .about-title h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 3.0rem;
+    margin-bottom: 680px;
+}
+.about-title img{
+    align-items: center;
 }
 
 /* Style the about content */
 .about-content {
-    width: 80%;
+    width: 100%;
     text-align: left;
     line-height: 140%;
     font-weight: bold;
