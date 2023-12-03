@@ -23,6 +23,7 @@ closeCart.addEventListener('click', () => {
         {
             products.forEach(product => {
                 let newProduct = document.createElement('div');
+                newProduct.style.backgroundImage="url('backgroundImage')";
                 newProduct.dataset.id = product.id;
                 newProduct.classList.add('item');
                 newProduct.innerHTML = 

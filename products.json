@@ -1,51 +1,28 @@
 [
     {
         "id": 1,
-        "name":" LD01 LOUNGE CHAIR",
+        "name":" Maybelline New York Fit Me Matte+Poreless Liquid Foundation 16H Oil Control - 128 Warm Nude",
         "price": 200,
-        "image": "image/1.png"
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/5/3/536b7076902395718338_1.jpg"
     },
     {
         "id": 2,
-        "name":" LD02 LOUNGE CHAIR",
+        "name":" Maybelline New York Fit Me Fresh Tint With SPF 50 & Vitamin C - Shade 05",
         "price": 250,
-        "image": "image/2.png"
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/e/8/e8524d0MAYBE000004620_1.jpg"
     },
     {
         "id": 3,
-        "name":" LD03 LOUNGE CHAIR",
+        "name":" Maybelline New York Fit Me Matte + Poreless Setting Spray Transfer-proof 24HR Oil-control Formula",
         "price": 290,
-        "image": "image/3.png"
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/3/7/372dd726902395821069_1.jpg"
     },
     {
         "id": 4,
-        "name":" LD04 LOUNGE CHAIR",
+        "name":" Maybelline New York Fit Me Matte+Poreless Liquid Foundation Tube - 128 Warm Nude",
         "price": 200,
-        "image": "image/4.png"
-    },
-    {
-        "id": 5,
-        "name":" LD05 LOUNGE CHAIR",
-        "price": 300,
-        "image": "image/5.png"
-    },
-    {
-        "id": 6,
-        "name":" LD06 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/6.png"
-    },
-    {
-        "id": 7,
-        "name":" LD07 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/7.png"
-    },
-    {
-        "id": 8,
-        "name":" LD08 LOUNGE CHAIR",
-        "price": 200,
-        "image": "image/8.png"
+        "image": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/8/d/8d9e9d86902395722434_1.jpg"
     }
+
 
 ]

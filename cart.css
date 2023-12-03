@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kenia&family=Oswald:wght@600&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Kenia&family=Oswald:wght@600&family=Roboto+Mono&display=swap');
+
+body{
+    margin: 0;
+    font-family: Poppins;
+}
+#slogan{
+    background-image: url(https://images-static.naikaa.com/media/wysiwyg/2021/common-strip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    margin-top: -1.5em;
+    width: 100%;
+    height: 68px;
+}
+
+
+.container{
+    width:70%;
+    margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+    margin-top: -25em;
+}
+svg{
+    width: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.wrapper{
+    display: flex;
+    gap: 10em;
+
+}
+#logo{
+    margin-left: 10em;
+}
+#logo img{
+    height: 5em;
+    margin-top: -.75rem;
+
+}
+#navbar{
+    display: flex;
+    padding: 5px;
+    
+}
+#items{
+    display: flex;
+    gap: 50px;
+
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    /* letter-spacing: 0.1px; */
+    text-transform: capitalize;
+margin-top: 1em;
+margin-left: -4em !important;
+
+}
+#line2{
+    height: 0.025vh;
+    
+    background-color: black;
+    width: 100%;
+}
+#line{
+    height: 0.025vh;
+    margin-top: -0.75em;
+    background-color: black;
+    width: 100%;
+}
+
+.icon-cart{
+    position: relative;
+}
+.icon-cart span{
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 50%;
+    right: -20px;
+}
+.title{
+    font-size: xx-large;
+    margin-top: 7em;
+    margin-right: 15rem;
+}
+.listProduct .item img{
+    width: 100%;
+    height: 50%;
+  border-radius: 20px;
+  
+}
+.listProduct{
+    display: flex;
+   
+    gap: 20px;
+}
+.listProduct .item{
+    background-color: #EEEEE6;
+    padding: 20px;
+    border-radius: 20px;
+}
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+.listProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+/* cart */
+.cartTab{
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+}
+body.showCart .cartTab{
+    right: 0;
+}
+body.showCart .container{
+    transform: translateX(-250px);
+}
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cartTab button{
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cartTab .close{
+    background-color: #eee;
+}
+.listCart .item img{
+    width: 100%;
+}
+.listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 0px;
+    text-align: center;
+    align-items: center;
+}
+.listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #555;
+    cursor: pointer;
+}
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+    cursor: auto;
+}
+.listCart .item:nth-child(even){
+    background-color: #eee1;
+}
+.listCart{
+    overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+@media only screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.animate{
+    background-color: #FBA1B7 ;
+    height: 20rem;
+    width:18rem;
+    margin: auto;
+    mix-blend-mode: multiply;
+    filter: blur(80px);
+    -webkit-filter: blur(80px);
+    opacity: 0.9;
+    border-radius: 8000px;
+    animation: blob2 7s infinite;
+    z-index: -999;
+    margin-left: 10rem;
+  }
+  .second{
+    background-color: #FFD1DA ;
+    animation: blob2 7s infinite;
+    animation-delay: 4s;
+    z-index: -999;
+    opacity: 0.9;
+  }
+  .part1{
+  background-color: #FF52A2    !important;
+  animation: blob2 7s infinite !important;
+  z-index: -999;
+  }
+  #back{
+    display: flex;
+  }
+  
+  
+  
+    
+      @keyframes blob2{
+        0% {
+            transform: translate(0px, 0px) scale(1);
+          }
+          33%{
+            transform: translate(20px, -50px) scale(1.1);
+          }
+          66% {
+            transform: translate(-100px, 100px) scale(0.9);
+          }
+          100% {
+            transform: translate(0px, 0px) scale(1);
+          }
+      }
+      .search {
+        width: 20%;
+        position: relative;
+        display: flex;
+        margin-top: 1.5rem;
+        padding: 0.25em;
+        float:right;
+        position: relative;
+        z-index:;
+      }
+      
+      .searchTerm {
+        width: 100%;
+        border: 3px solid #940B92;
+        border-right: none;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+
+      }
+      
+      .searchTerm:focus{
+        color: black;
+      }
+      
+      .searchButton {
+        width: 40px;
+        height: 36px;
+        border: 1px solid #940B92;
+        background: #940B92;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+.lens{
+    height: 3rem;
+    margin-left: -0.5rem;
+    margin-top: -0.35rem;
+    
+}
