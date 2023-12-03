@@ -2,8 +2,8 @@
 body{
     
     padding: 0;
-    background: rgb(245,110,179);
-background: linear-gradient(20deg, rgba(245,110,179,1) 0%, rgba(203,28,141,1) 50%, rgba(127,22,127,1) 100%) no-repeat;
+    background: rgb(253, 187, 221);
+background: linear-gradient(20deg, rgba(245,110,179,1) 0%, rgb(223, 103, 181) 50%, rgb(238, 163, 238) 100%) no-repeat;
 
 }
  h1, p {
@@ -29,15 +29,21 @@ background: linear-gradient(20deg, rgba(245,110,179,1) 0%, rgba(203,28,141,1) 50
 }
 
 .about-title {
-    text-align:left;
+    text-align:center;
+    align-content: center;
 }
 
 .about-title h1 {
-    font-size: 3.0rem;
-    margin-bottom: 680px;
+    font-size: 3.3rem;
+    margin-bottom: 200px;
 }
 .about-title img{
     align-items: center;
+    align-self: start;
+    max-width: 500px;
+    border-radius: 15px;
+    margin-right: 50px;
+    margin-bottom: 250px;
 }
 
 /* Style the about content */
