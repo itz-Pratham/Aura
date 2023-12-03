@@ -1,29 +1,16 @@
 html
   head
     title AURA BEAUTY BRAND
-    style 
-        include ../../public/css/home.css
-    script 
-        include ../../public/js/home.js
+    style   
+      include ../../public/css/home.css
     meta(name='viewport', content='width =device-width, initial-scale=1')
   body
-    section#banner
-      img.logo(src='../public/images/download.png')
-      .banner-text
-        h1 AURA
-        p Come And Explore Your Beauty With Our Beauty Products
-        .banner-btn
-          a(href='#')
-            span
-            | Find Out
-          a(href='#')
-            span
-            | Read More
+    
     #sideNav
       nav
         ul
           li
-            a(href='/home') Home
+            a(href='/') Home
           li
             a(href='#feature') Features
           li
@@ -33,26 +20,22 @@ html
           li
             a(href='#footer') Meet Us
           li
-            a(href='about.html') About Us
+            a(href='/about') About Us
     #manuBtn
       img#menu(src='https://t3.ftcdn.net/jpg/04/56/02/78/360_F_456027840_aOzePhpKuq4hIvr06NKBoJn9Mmo7lZV0.jpg')
     script. 
       var manuBtn = document.getElementById("manuBtn")
       var sideNav = document.getElementById("sideNav")
       var menu = document.getElementById("menu")
-
       sideNav.style.right = "-250px"
-
       manuBtn.onclick = function () {
-        if (sideNav.style.right == "-250px") {
-          sideNav.style.right = "0";
-          menu.src = "https://cdn0.iconfinder.com/data/icons/action-1/24/61_-_Action_cancel_close_delete_exit_remove_x_icon-64.png"
-        }
-        else {
-          sideNav.style.right = "-250px";
-          menu.src = "https://t3.ftcdn.net/jpg/04/56/02/78/360_F_456027840_aOzePhpKuq4hIvr06NKBoJn9Mmo7lZV0.jpg"
-
-        }
-
-
+      if (sideNav.style.right == "-250px") {
+      sideNav.style.right = "0";
+      menu.src = "https://media.istockphoto.com/id/857112152/vector/close-thin-line-vector-icon.jpg?s=612x612&w=0&k=20&c=gFs1EgxLxPhzgxILUCN80n8A5nN3dwhqxUmhb3hsTBE="
+      menu.display.style="width:50px; height:50px;"
+      }
+      else {
+      sideNav.style.right = "-250px";
+      menu.src = "https://t3.ftcdn.net/jpg/04/56/02/78/360_F_456027840_aOzePhpKuq4hIvr06NKBoJn9Mmo7lZV0.jpg"
+      }
       }
