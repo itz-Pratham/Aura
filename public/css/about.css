@@ -3,7 +3,7 @@ body{
     
     padding: 0;
     background: rgb(253, 187, 221);
-background: linear-gradient(20deg, rgba(245,110,179,1) 0%, rgb(223, 103, 181) 50%, rgb(238, 163, 238) 100%) no-repeat;
+    background: linear-gradient(20deg, rgba(245,110,179,1) 0%, rgb(223, 103, 181) 50%, rgb(238, 163, 238) 100%) no-repeat;
 
 }
  h1, p {
