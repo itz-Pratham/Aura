@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "global": "^4.4.0",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.2",
+    "pug": "^3.0.2"
+  },
+  "name": "aura",
+  "description": "A detailed website for aura beauty brand ...",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,pug"
+  },
+  "author": "",
+  "license": "ISC"
+}
