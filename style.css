@@ -5,7 +5,7 @@
 #banner{
 	background: radial-gradient(circle, rgba(248,117,170,1) 0%, rgba(255,223,223,1) 40%, rgba(217,136,185,1) 100%);
 	background-position: center;
-	height: 90vh;
+	height: 100vh;
 	
 }
 .logo{
@@ -39,7 +39,7 @@
 	display: inline-block;
 	margin:0 10px;
 	padding: 12px 0;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	border: .5px solid #fff;
 	position: relative;
 	z-index: 1;
@@ -115,6 +115,7 @@ nav ul li a{
 #feature{
 	width:100%;
 	padding:70px 0;
+    
 	
 }
 .title-text{
@@ -122,30 +123,32 @@ nav ul li a{
 	padding-bottom:70px;
 	
 }
-.title-text p{
+.title-text h5{
 	margin:auto;
 	font-size:20px;
 	color:#009688;
 	font-weight:bold;
 	position:relative;
 	z-index:1;
+    bottom: 3px;
 	display:inline-block;
 }
-.title-text p::after{
+.title-text h5::after{
 	content:'';
-	width:50px;
+	width:52px;
 	height:35px;
-	background:linear-gradient(#019587,#fff);
+	background:linear-gradient(rgb(216, 164, 244),#fff);
 	position:absolute;
 	top:-5px;
-	left:0;
+	left:29px;
 	z-index:-1;
-	transform:rotate(45deg);
+	transform:rotate(30deg);
 	border-top-left-radius:35px;
 	border-bottom-right-radius:35px;
 }
-.title-text h1{
-	font-size:50px;
+.title-text h2{
+	font-size:45px;
+    padding: 10px;
 }
 .feature-box{
 	width:80%;
@@ -197,6 +200,7 @@ nav ul li a{
 }
 .feature-img img{
 	width:100%;
+    height:70%
 	
 	
 }
@@ -225,17 +229,18 @@ nav ul li a{
 	position:relative;
 }
 .single-service img{
-	width:100%;
-	border-radius:7px;
+	width:90%;
+	border-radius:10px;
 }
 .overlay{
-	width:100%;
+	width:90%;
 	height:100%;
 	position:absolute;
 	top:0;
-	border-radius:7px;
+    left: 29px;
+	border-radius:10px;
 	cursor:pointer;
-	background:linear-gradient(rgba(0,0,0,0.5),#009688);
+	background:linear-gradient(rgba(0,0,0,0.5),#e298e8);
 	opacity:0;
 	transition:1s;
 	
@@ -266,7 +271,7 @@ hr{
 	
 }
 .single-service:hover .service-des{
-	bottom:40%;
+	bottom:30%;
 	opacity:1;
 	
 }
