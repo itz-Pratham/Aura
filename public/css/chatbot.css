@@ -3,6 +3,7 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+  z-index: 999;
 }
 
 
@@ -37,6 +38,7 @@ a:not([class]) {
 img,picture {
   max-width: 100%;
   display: block;
+  z-index: 999;
 }
 
 input,button,textarea,select {
@@ -53,6 +55,7 @@ input,button,textarea,select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+	z-index: 999;
   }
 }
 
@@ -106,6 +109,7 @@ input,button,textarea,select {
 	transform: scale(0);
 	transform-origin: bottom right;
 	transition: .2s;
+	z-index: 999;
 }
 .chatbox-message-wrapper.show {
 	transform: scale(1);

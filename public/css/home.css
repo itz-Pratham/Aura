@@ -10,7 +10,11 @@
 }
 .logo{
 	width:190px;
+<<<<<<< HEAD
 	/* margin-top: 30px; */
+=======
+	margin-top: 0px;
+>>>>>>> e7b243bdc2880d9f580ce161efbfaf808596e7e1
 	margin-left: 30px;
 	top:4%;
 	left:10%;
