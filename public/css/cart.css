@@ -7,6 +7,7 @@ body{
 }
 #slogan{
     background-image: url(https://images-static.naikaa.com/media/wysiwyg/2021/common-strip.jpg);
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover !important;
     margin-top: -1.5em;
@@ -79,9 +80,13 @@ margin-left: -4em !important;
     background-color: black;
     width: 100%;
 }
+button{
+    cursor: pointer;
+}
 
 .icon-cart{
     position: relative;
+    cursor: pointer;
 }
 .icon-cart span{
     position: absolute;
@@ -282,7 +287,7 @@ body.showCart .container{
         border: 3px solid #940B92;
         border-right: none;
         padding: 5px;
-        height: 20px;
+        height: 36px;
         border-radius: 5px 0 0 5px;
         outline: none;
         color: #9DBFAF;
