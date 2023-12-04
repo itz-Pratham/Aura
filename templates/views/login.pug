@@ -6,7 +6,7 @@ html(lang='en')
     style 
         include ../../public/css/styles.css
   body
-    include ../partials/nav.pug
+    include ../partials/navbar.pug
     .container
       form.form(action="/login",method="POST")
         h2 Log in 
@@ -22,3 +22,4 @@ html(lang='en')
         p.form-footer
           | Dont have an account 
           a(href='/signup') Sign Up
+    include ../partials/chatbot.pug

@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Product Filter And Search
+    // Google Font
+    link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap', rel='stylesheet')
+    // Stylesheet
+    style
+        include ../../public/css/filter.css
+  body
+    include ../partials/navbar.pug
+    .wrapper
+      #search-container
+        input#search-input(type='search', placeholder='Search product name here..')
+        button#search Search
+      #buttons
+        button.button-value(onclick="filterProduct('all')") All
+        button.button-value(onclick="filterProduct('Skincare')")
+          | Skincare
+        button.button-value(onclick="filterProduct('Haircare')")
+          | Haircare
+        button.button-value(onclick="filterProduct('Face care')")
+          | Face care
+        button.button-value(onclick="filterProduct('Lipcare')")
+          | Lipcare
+      #products
+    // Script
+    include ../partials/chatbot.pug
+    script(src='./js/filter.js')

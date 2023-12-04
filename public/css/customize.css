@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kenia&family=Oswald:wght@600&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Kenia&family=Oswald:wght@600&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bebas+Neue&family=Kenia&family=Nova+Square&family=Oswald:wght@600&family=Roboto+Mono&display=swap');
+body{
+    margin: 0;
+    font-family: Poppins;
+    background-color: lightgrey;
+}
+#slogan{
+    background-image: url(https://images-static.naikaa.com/media/wysiwyg/2021/common-strip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    margin-top: -1.5em;
+    width: 100%;
+    height: 68px;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.wrapper{
+    display: flex;
+    gap: 10em;
+
+}
+#logo{
+    margin-left: 10em;
+}
+#logo img{
+    height: 5em;
+    margin-top: -.75rem;
+
+}
+#navbar{
+    display: flex;
+    padding: 5px;
+    
+}
+#items{
+    display: flex;
+    gap: 50px;
+
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Kenia', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    /* letter-spacing: 0.1px; */
+    text-transform: capitalize;
+margin-top: 1em;
+margin-left: -4em !important;
+
+}
+#line2{
+    height: 0.025vh;
+    
+    background-color: black;
+    width: 100%;
+}
+#line{
+    height: 0.025vh;
+    margin-top: -0.75em;
+    background-color: black;
+    width: 100%;
+}
+
+
+      .search {
+        width: 20%;
+        position: relative;
+        display: flex;
+        margin-top: 1.5rem;
+        padding: 0.25em;
+        float:right;
+        position: relative;
+     
+      }
+      
+      .searchTerm {
+        width: 100%;
+        border: 3px solid #B3005E;
+        border-right: none;
+        padding: 5px;
+        height: 20px;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+        color: #9DBFAF;
+
+      }
+      
+      .searchTerm:focus{
+        color: black;
+      }
+      
+      .searchButton {
+        width: 40px;
+        height: 36px;
+        border: 1px solid #B3005E;
+        background: #B3005E;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+.lens{
+    height: 3rem;
+    margin-left: -0.5rem;
+    margin-top: -0.35rem;
+    
+}
+ .image{
+    margin-top: 12rem;
+    margin-left: 15rem;
+ }
+
+ #container{
+
+    display: flex;
+    gap: 100px;
+    background-color:white;
+    margin-top:5em;
+    width: 85%;
+    margin-left: 10em;
+    padding-bottom: 90px;
+    border-radius: 50px;
+  
+    
+ }
+ 
+ #wrapper{
+
+    margin-top: 8rem;
+ }
+ #productname{
+    font-size: 20px;
+    
+
+    font-family: 'Barlow', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Kenia', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Mono', monospace;
+    padding-bottom: 0.25rem;
+    display: -webkit-box;   
+    -webkit-line-clamp: 3;   
+    -webkit-box-orient: vertical;    
+ }
+ #rate{
+margin-top: 2rem;
+font-size: x-large;
+
+ }
+#taxes{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+#selected{
+    height: 10vh;
+    background-color: #ffdbac;
+    margin-top: 1rem;
+    width: 15%;
+    border-radius: 20px; 
+    cursor: pointer;
+
+}
+
+#shades p{
+    font-size: 20px;
+    text-decoration: underline;
+}
+#allshades{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    
+}
+#selected2{
+    height: 10vh;
+    background-color: #f1c27d;
+    margin-top: 1rem;
+    width: 15%;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+#selected3{
+    height: 10vh;
+    background-color: #e0ac69;
+    margin-top: 1rem;
+    width: 15%;
+    border-radius: 20px; 
+    cursor: pointer;
+
+}
+
+#selected4{
+    height: 10vh;
+    background-color: #c68642;
+    margin-top: 1rem;
+    width: 15%;
+    border-radius: 20px; 
+    cursor: pointer;
+
+}
+
+#selected6{
+    height: 10vh;
+    background-color: #8d5524;
+    margin-top: 1rem;
+    width: 15%;
+    border-radius: 20px; 
+    cursor: pointer;
+
+}
+#check{
+    height: 5.5rem;
+    
+    margin-left: 1.5rem;
+    display: none;
+}
+#check2{
+    height: 5.5rem;
+    margin-left: 1.5rem;
+    display: none;
+}
+#check1{
+    height: 5.5rem;
+    margin-left: 1.5rem;
+    display: none;
+}
+#check3{
+    height: 5.5rem;
+    margin-left: 1.5rem;
+    display: none;
+}
+#check4{
+    height: 5.5rem;
+    margin-left: 1.5rem;
+    display: none;
+   
+}
+#check5{
+    height: 5.5rem;
+    margin-left: 1.5rem;
+    display: none;
+}
+#cartbtn{
+    text-decoration: none;
+    font-size: x-large;
+    margin-top: 2em;
+    background-color: #E80071;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+   padding-left: 50px;
+   padding-right: 50px;
+   color: white;
+}
+
+

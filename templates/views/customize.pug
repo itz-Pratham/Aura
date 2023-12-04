@@ -1,0 +1,57 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    style   
+        include ../../public/css/customize.css
+  body
+
+    #slogan
+      .search
+        input.searchTerm(type='text', placeholder='What are you looking for?')
+        button.searchButton(type='submit')
+          img.lens(src='./images/search.png')
+    #line2
+    #navbar
+      .wrapper
+        #logo
+          | ,
+          img(src='./images/aura.png', alt='')
+        #items
+          #item1  Home
+          #item2 Skincare
+          #item3 Haircare
+          #item3 Facecare
+          #item3 Lipcare
+    #line
+    #container
+      #image
+        img#product.image(src='https://images-static.nykaa.com/media/catalog/product/8/d/8d9e9d86902395722434_1.jpg', height='300px"')
+      #wrapper
+        #productname
+          | Maybelline New York Fit Me Matte+Poreless Liquid Foundation Tube -
+          br
+          |  
+          p#ingredient 128-warm Nude
+        #rate
+          span#mrp MRP:
+          | $200
+        #taxes Inclusive of All Taxes
+        #shades
+          p#ingredient 128-warm Nude
+          #allshades
+            #selected
+              img#check(src='./images/check.png')
+            #selected2
+              img#check1(src='./images/check.png')
+            #selected3
+              img#check2(src='./images/check.png')
+            #selected4
+              img#check3(src='./images/check.png')
+            #selected6
+              img#check5(src='./images/check.png')
+          #cart
+            button#cartbtn  Add To Cart
+    //- include ../partials/chatbot.pug
+    script(src='./public/customize.js')

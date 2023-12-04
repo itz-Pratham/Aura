@@ -41,6 +41,22 @@ app.get("/cart1",(req,res)=>{
     const object=require("../public/js/products.json");
     res.render("cart1.pug");
 });
+app.get("/login",(req,res)=>{
+  
+  res.render("login.pug");
+});
+app.get("/signup",(req,res)=>{
+  
+  res.render("signup.pug");
+});
+app.get("/filter",(req,res)=>{
+  
+  res.render("filter.pug");
+});
+app.get("/customize",(req,res)=>{
+  
+  res.render("customize.pug");
+});
 app.listen(port,()=>{
     console.log(`server is running at port ${port}`)
 })
