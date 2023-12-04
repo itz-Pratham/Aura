@@ -1,0 +1,24 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Sign Up - Our Law Firm
+    style 
+        include ../../public/css/styles.css
+  body
+    include ../partials/nav.pug
+    .container
+      form.form(action="/login",method="POST")
+        h2 Log in 
+        .form-group
+          label(for='Username') Username
+          input#username(type='text', name='Username', required='true')
+        
+        .form-group
+          label(for='Password') Password
+          input#password(type='Password', name='Password', required='true')
+        
+        button.btn1(type='submit') Submit 
+        p.form-footer
+          | Dont have an account 
+          a(href='/signup') Sign Up
