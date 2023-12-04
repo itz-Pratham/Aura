@@ -131,17 +131,18 @@ const changeQuantityCart = (product_id, type) => {
 
 const initApp = () => {
     // get data product
-    fetch('products.json')
-    .then(response => response.json())
-    .then(data => {
-        products = data;
-        addDataToHTML();
+    // fetch('products.json')
+    // .then(response => response.json())
+    // .then(data => {
+    //     products = data;
+    //     addDataToHTML();
+    const product=products;
 
         // get data cart from memory
-        if(localStorage.getItem('cart')){
-            cart = JSON.parse(localStorage.getItem('cart'));
-            addCartToHTML();
-        }
-    })
+    if(localStorage.getItem('cart')){
+        cart = JSON.parse(localStorage.getItem('cart'));
+        addCartToHTML();
+    }
+   
 }
 initApp();
